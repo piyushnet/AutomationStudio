@@ -69,6 +69,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Project Manager\ProjectManager.cs" />
+    <Compile Include="Project Manager\Project\Architecture\Architecture.cs" />
+    <Compile Include="Project Manager\Project\Architecture\Area.cs" />
+    <Compile Include="Project Manager\Project\Architecture\Building.cs" />
+    <Compile Include="Project Manager\Project\Architecture\Floor.cs" />
+    <Compile Include="Project Manager\Project\AutomationStudioProject.cs" />
+    <Compile Include="Project Manager\Project\Device.cs" />
+    <Compile Include="Project Manager\Project\Devices\AutomatedFunction.cs" />
+    <Compile Include="Project Manager\Project\Devices\Device.cs" />
+    <Compile Include="Project Manager\Project\Devices\DeviceCatalog.cs" />
+    <Compile Include="Project Manager\XML Serializer\XMLSerializer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -101,6 +112,7 @@
     <Resource Include="Resources\Icons\BoHR\Icon_Ring32.ico" />
     <Resource Include="Resources\Icons\BoHR\Icon_Ring48.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
